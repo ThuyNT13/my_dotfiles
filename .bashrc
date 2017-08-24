@@ -127,7 +127,9 @@ git_prompt ()
   echo " [$git_color$git_branch${c_reset}]"
 }
 
+# Default directory to open to:
+cd ~/Documents
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-cd ~/Documents
