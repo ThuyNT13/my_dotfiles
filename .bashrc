@@ -109,6 +109,24 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# determines if the git branch you are on is clean or dirty
+git_prompt ()
+{
+  # Is this a git directory?
+  if ! git rev-parse --git-dir > /dev/null 2>&1; then
+    return 0
+  fi
+  # Grab working branch name
+  git_branch=$(git branch 2>/dev/null| sed -n '/^\*/s/^\* //p')
+  # Clean or dirty branch
+  if git diff --quiet 2>/dev/null >&2; then
+    git_color="${c_git_clean}"
+  else
+    git_color=${c_git_dirty}
+  fi
+  echo " [$git_color$git_branch${c_reset}]"
+}
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
