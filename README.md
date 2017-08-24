@@ -26,3 +26,5 @@ then
     . ~/.bashrc
 fi
 ```
+
+[Wiki!!](https://github.com/ThuyNT13/my_dotfiles/wiki) so that can dump more of my brain into retrievable repositories.
