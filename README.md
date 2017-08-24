@@ -27,4 +27,4 @@ then
 fi
 ```
 
-[Wiki!!](https://github.com/ThuyNT13/my_dotfiles/wiki) so that can dump more of my brain into retrievable repositories.
+[Wiki!!](https://github.com/ThuyNT13/my_dotfiles/wiki) so that I can dump more of my brain into retrievable repositories.
