@@ -1,4 +1,4 @@
-Because I hate having to remember how to reset all this when my computer crashes.
+Because I hate having to remember how to reset all this when my computer crashes. Also created a [Wiki](https://github.com/ThuyNT13/my_dotfiles/wiki) so that I can dump more of my brain into retrievable repositories.
 
 Need to explore how bash works better (like when to use *.bashrc* and when to use *.bash_profile*) in order to create more custom code but this will do for now.
 
@@ -24,5 +24,3 @@ then
     . ~/.bashrc
 fi
 ```
-
-[Wiki!!](https://github.com/ThuyNT13/my_dotfiles/wiki) so that I can dump more of my brain into retrievable repositories.
