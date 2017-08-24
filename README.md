@@ -11,3 +11,12 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 ```
+
+Windows doesn't read *.bashrc* so needed to add following code to *.bash_profile*:
+
+```bash
+if [ -f ~/.bashrc ]
+then
+    . ~/.bashrc
+fi
+```
