@@ -109,6 +109,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# completion for Exercism CLI - Tab auto-completes
+if [ -f ~/.config/exercism/exercism_completion.bash ]; then
+  . ~/.config/exercism/exercism_completion.bash
+fi
+
 # determines if the git branch you are on is clean or dirty
 git_prompt ()
 {
@@ -133,3 +138,6 @@ cd ~/Documents
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+
+export PATH="/usr/bin/java:$PATH"
+export PATH=$HOME/bin:$PATH
