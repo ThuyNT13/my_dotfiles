@@ -141,3 +141,6 @@ export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 
 export PATH="/usr/bin/java:$PATH"
 export PATH=$HOME/bin:$PATH
+
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
