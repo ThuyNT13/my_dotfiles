@@ -1,0 +1,13 @@
+# ~/Library/Application\ Support/VSCodium/User/settings.json 
+# ~/Library/Application\ Support/Code/User/settings.json
+# ~/.config/VSCodium/User/settings.json
+{
+    "todo-tree.tree.showScanModeButton": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "alt"
+}
