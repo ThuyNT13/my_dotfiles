@@ -1,0 +1,24 @@
+## configure git to globally exclude this file: 
+  ## $ git config --global core.excludesfile ~/.gitignore_global
+
+## code editor
+.vscode/
+
+## log files
+/log/*
+*logfile
+*.log
+/tmp
+/public/assets
+
+## db
+*.project
+/db/*.sqlite3
+psql/
+
+## MacOSX file metadata
+.DS_Store
+
+node_modules/
+
+.env
