@@ -12,7 +12,11 @@ alias gcm='git commit -m'
 alias ga='git add'
 alias glog='git log --oneline --graph'
 
-alias e='atom'
+alias e='code'
+
+# because i like the shrug emoji
+alias shrug='echo "¯\_(ツ)_/¯" | xclip -selection clipboard' # Linux
+alias shrug='echo "¯\_(ツ)_/¯" | pbcopy' # Mac
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
