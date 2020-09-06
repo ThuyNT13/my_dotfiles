@@ -2,8 +2,6 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
-alias be='bundle exec'
-
 alias gs='git status'
 alias gb='git branch'
 alias gco='git checkout'
